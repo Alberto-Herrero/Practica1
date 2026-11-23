@@ -34,6 +34,7 @@ void main() {
     searchDelegate = SearchDestinationDelegate();
   });
 
+  // Tests del delegate de búsqueda de destinos
   group('SearchDestinationDelegate Tests', () {
     testWidgets('Cierra el buscador cuando se presiona el botón de limpiar (X)',
         (tester) async {
